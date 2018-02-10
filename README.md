@@ -2,7 +2,7 @@
 
 ## Finalità
 L'esercizio consiste nel confrontare le curve di apprendimento ottenute usando due algoritmi di apprendimento: Decision tree e il Perceptron.
-Questi algoritmi vengono applicati su un dataset di immagini dei prodotti di Zalando: Ci sono 60000 esempi di train e 10000 esempi di test, ognuno con 10 tipologie diverse di prodotti.
+Questi algoritmi vengono applicati su un dataset di immagini che rappresentano dei prodotti di Zalando: Ci sono 60000 esempi di train e 10000 esempi di test, ognuno con 10 tipologie diverse di prodotti.
 
 Si vuole confrontare le curve di apprendimento dei due algoritmi applicati al riconoscimento degli articolo del dataset.
 

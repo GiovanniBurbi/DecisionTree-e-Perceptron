@@ -31,3 +31,4 @@ della predizione, la confusion matrix e la classification report per il classifi
 il miglior score nel training.
 
 il secondo, main.py, in cui vengono chiamate le funzioni del file Functions.py per produrre i risultati.
+I parametri con cui sono chiamate le funzioni possono essere modificati.

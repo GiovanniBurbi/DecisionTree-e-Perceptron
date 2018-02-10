@@ -39,5 +39,5 @@ scelto e li usa per plottare la learning curve corrispettiva. Restituisce anche 
 della predizione, la confusion matrix e la classification report per il classificatore usando i parametri che restituiscono 
 il miglior score nel training.
 
-2.il secondo, main.py, in cui vengono chiamate le funzioni del file Functions.py per produrre i risultati.
+2. main.py, in cui vengono chiamate le funzioni del file Functions.py per produrre i risultati.
 I parametri con cui sono chiamate le funzioni possono essere modificati.

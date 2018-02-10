@@ -14,7 +14,7 @@ import sys
 def BestEstimatorCurve(x_train, y_train, x_test, y_test, train_sizes, cv, estimator='') :
 
     if estimator == 'decision tree':
-        parameter_grid = {'criterion': ['gini', 'entropy'], 'max_depth': [12]}#range(1, 15)}  # da togliere 12
+        parameter_grid = {'criterion': ['entropy'], 'max_depth': [12]}#range(1, 15)}  # da togliere 12 e aggiunge gini
         estimator = DecisionTreeClassifier(random_state=0, min_samples_leaf=5, min_samples_split=2)
         clf = GridSearchCV(estimator, param_grid=parameter_grid, cv=cv, n_jobs=-1, scoring='accuracy')
         trainSizes, trainScore, testScore = learning_curve(clf , x_train, y_train, train_sizes=train_sizes, cv=cv, n_jobs=-1)

@@ -1,6 +1,7 @@
 # DecisionTree-e-Perceptron
 
-il dataset usato per l'esercizio può essere scaricato qui: https://github.com/zalandoresearch/fashion-mnist
+Il dataset usato per l'esercizio può essere scaricato qui: https://github.com/zalandoresearch/fashion-mnist
+Dopo averlo scaricato i file, importa i file .gz in una cartella 'dataset'.
 
 Il codice consiste di 2 file .py:
 
